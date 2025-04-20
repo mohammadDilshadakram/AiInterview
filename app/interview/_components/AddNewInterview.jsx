@@ -44,7 +44,8 @@ function AddNewInterview() {
                         jobPosition: jobPosition,
                         jobDesc: jobDesc,
                         jobExperience: jobExperience,
-                        createdAt: moment().format('DD-MM-YYYY')
+                        createdAt: moment().format('DD-MM-YYYY'),
+                        createdBy: 'default_user'
                     }).returning({ mockId: MockInterview.mockId });
 
                 if (resp) {

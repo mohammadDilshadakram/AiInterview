@@ -14,9 +14,7 @@ function Header() {
 
     const navItems = [
         { href: "/interview", label: "Interview" },
-        { href: "/learn-more", label: "Features" },
-        { href: "/contact", label: "Contact Us" }, 
-        { href: "/upgrade", label: "Upgrade" },
+       
     ];
 
     return (
